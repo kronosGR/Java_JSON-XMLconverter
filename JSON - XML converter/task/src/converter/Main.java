@@ -1,7 +1,13 @@
 package converter;
 
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Converter conv = new Converter();
+        conv.start();
+        System.out.println(conv.convert());
     }
 }

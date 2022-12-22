@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-22T09:51:15" hostname="DESKTOP-KVPJL09" time="0.115">
+  <properties/>
+  <testcase name="start" classname="ConverterTest" time="0.115"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+> <host>127.0.0.1</host>
+{"host": "127.0.0.1"}
+?[1;31m
+Start test 2?[0m
+> {"host":"127.0.0.1"}
+<host>127.0.0.1</host>
+?[1;31m
+Start test 3?[0m
+> <pizza>slice</pizza>
+{"pizza": "slice"}
+?[1;31m
+Start test 4?[0m
+> {"pizza":"slice"}
+<pizza>slice</pizza>
+?[1;31m
+Start test 5?[0m
+> <success/>
+{"success":null}
+?[1;31m
+Start test 6?[0m
+> {"success":null}
+<success/>
+?[1;31m
+Start test 7?[0m
+> {"jdk":"1.8.9"}
+<jdk>1.8.9</jdk>
+?[1;31m
+Start test 8?[0m
+> <jdk>1.8.9</jdk>
+{"jdk": "1.8.9"}
+?[1;31m
+Start test 9?[0m
+> <qwerty/>
+{"qwerty":null}
+?[1;31m
+Start test 10?[0m
+> {"qwerty":null}
+<qwerty/>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
