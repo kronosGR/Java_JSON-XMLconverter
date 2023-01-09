@@ -1,40 +1,26 @@
 [1;31m
 Start test 1[0m
-> <host>127.0.0.1</host>
-{"host": "127.0.0.1"}
+B{"employee":{"@department":"manager","#employee":"Garry Smith"}}
+
 [1;31m
 Start test 2[0m
-> {"host":"127.0.0.1"}
-<host>127.0.0.1</host>
+<{"person":{"@rate":"1","@name":"Torvalds","#person":null}}
+
 [1;31m
 Start test 3[0m
-> <pizza>slice</pizza>
-{"pizza": "slice"}
+7<employee department="manager">Garry Smith</employee>
+
 [1;31m
 Start test 4[0m
-> {"pizza":"slice"}
-<pizza>slice</pizza>
+$<person rate="1" name="Torvalds"/>
+
 [1;31m
 Start test 5[0m
-> <success/>
-{"success":null}
+<pizza size="20">123
+    }
+}</pizza>
+
 [1;31m
 Start test 6[0m
-> {"success":null}
-<success/>
-[1;31m
-Start test 7[0m
-> {"jdk":"1.8.9"}
-<jdk>1.8.9</jdk>
-[1;31m
-Start test 8[0m
-> <jdk>1.8.9</jdk>
-{"jdk": "1.8.9"}
-[1;31m
-Start test 9[0m
-> <qwerty/>
-{"qwerty":null}
-[1;31m
-Start test 10[0m
-> {"qwerty":null}
-<qwerty/>
+){"pizza":{"@size":"20","#pizza":"123"}}
+
